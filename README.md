@@ -1,2 +1,3 @@
 # leetcode
-JavaScript Solutions of LeetCode
+JavaScript Solutions of LeetCode.
+For personal practice.
