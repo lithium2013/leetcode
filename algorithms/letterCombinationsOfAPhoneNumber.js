@@ -17,6 +17,8 @@ var letterCombinations = function(digits) {
     ],
     result = [''];
 
+    if (!digits || !digits.length) return [];
+
     for (var i = 0; i < digits.length; i++) {
         result = combinationsAppend(result, digits[i]);
     }
