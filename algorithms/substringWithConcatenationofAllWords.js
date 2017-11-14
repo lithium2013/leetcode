@@ -3,6 +3,8 @@
  * @param {string[]} words
  * @return {number[]}
  */
+
+ // O(sl * wl2)
 var findSubstring = function(s, words) {
 	if (!s || !s.length || !words || !words.length) return [];
 
